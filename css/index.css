@@ -1,0 +1,41 @@
+html {
+  font-size: 10px;
+  font-family: 'Raleway';
+  font-weight: 300;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+input::-webkit-input-placeholder {
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+}
+input[type="text"] {
+  font-family: Roboto, sans-serif;
+}
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+body {
+  margin: 0;
+  font-size: 1.6rem;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.mainContainer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+}

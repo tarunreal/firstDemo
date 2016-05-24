@@ -1,0 +1,70 @@
+//out: index.css
+html {
+  font-size: 10px;
+  font-family: 'Raleway';
+  font-weight: 300;
+}
+@red: #EA0912;
+@darkRed: #cc0008;
+@yellow: #FDC121;
+@green: #1dc23b;
+@gold: #a39379;
+@blue1: #3ba8de;
+@blue2: #2996cc;
+@blue3: #87b4cb;
+@dark1: #2b333b;
+@dark2: #3d454d;
+@gray1: #c2c5ca;
+@black: black;
+@white: white;
+@translucentBlack: rgba(0,0,0,.8);
+@translucentWhite: rgba(255,255,255,.5);
+@shadow: rgba(0,0,0,0.4);
+@borderBlack: 1px dotted rgba(0,0,0,.4);
+@borderWhite: 1px dotted rgba(255,255,255,.4);
+@h1: 1.4rem;
+@h2: 1.6rem;
+@h3: 1.8rem;
+@h4: 2rem;
+@h5: 2.2rem;
+@h6: 2.4rem;
+@h7: 3rem;
+@h8: 3.4rem;
+@bold: 400;
+@font: Roboto, sans-serif;
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+input::-webkit-input-placeholder {
+  font-family: @font;
+  font-weight: 100;
+}
+input[type="text"] {
+  font-family: @font;
+}
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+body {
+  margin: 0;
+  font-size: 1.6rem;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.mainContainer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+}
